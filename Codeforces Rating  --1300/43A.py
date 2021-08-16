@@ -2,7 +2,7 @@ from collections import Counter
 
 n = int(input())
 
-lst=[]
+lst = []
 
 for i in range(n):
     lst.append(input())

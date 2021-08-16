@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-    int t, val=0;
+    int t, val = 0;
     string s;
-    
+
     cin >> t;
-    while(t--){
+    while (t--) {
         cin >> s;
-        if (s[1]=='+')
+        if (s[1] == '+')
             val++;
         else
             val--;
     }
-    cout<<val;
+    cout << val;
     return 0;
 }
