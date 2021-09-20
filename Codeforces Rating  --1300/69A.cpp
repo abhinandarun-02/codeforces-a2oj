@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n, a, b , c, sum_a = 0, sum_b = 0, sum_c = 0;
+    int n, a, b, c, sum_a = 0, sum_b = 0, sum_c = 0;
     cin >> n;
 
     while (n--)

@@ -16,9 +16,6 @@ int main()
 
     sort(arr.begin(), arr.end());
 
-    // for (int i=0; i<n; i++)
-    //     cout << arr[i].first  << " "<< arr[i].second << endl;
-
     for (int i = 0; i < n; i++)
     {
         if (s <= arr[i].first)

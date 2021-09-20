@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main()
+{
     int n, l;
     string a;
     cin >> n;
 
-    while (n > 0) {
+    while (n > 0)
+    {
         cin >> a;
         l = a.length();
         if (l <= 10)

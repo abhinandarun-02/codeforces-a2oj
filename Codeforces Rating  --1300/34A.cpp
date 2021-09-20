@@ -8,7 +8,8 @@ int main()
 
     cin >> n;
     int arr[n];
-    fo(i, n) cin >> arr[i];
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
 
     for (i = 0; i < n - 1; i++)
     {

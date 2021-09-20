@@ -7,7 +7,8 @@ int main()
     string s;
 
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         cin >> s;
         if (s[1] == '+')
             val++;

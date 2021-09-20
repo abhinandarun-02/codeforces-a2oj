@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
 	long long n;
 	int nums, count = 0;
 	cin >> n;
@@ -15,10 +16,12 @@ int main() {
 		n /= 10;
 	}
 
-	if (count == 4 || count == 7) {
+	if (count == 4 || count == 7)
+	{
 		cout << "YES";
 	}
-	else {
+	else
+	{
 		cout << "NO";
 	}
 	return 0;

@@ -10,10 +10,12 @@ int main()
     for (int i = 0; i < DAYS; i++)
         cin >> arr[i];
 
-    for (int i = 0;; i = (i + 1) % 7) {
+    for (int i = 0;; i = (i + 1) % 7)
+    {
         sum += arr[i];
         // cout << sum << " ";
-        if (sum >= num) {
+        if (sum >= num)
+        {
             cout << i + 1;
             break;
         }

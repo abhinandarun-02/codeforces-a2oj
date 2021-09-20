@@ -1,23 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define fastio()                      \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL);                    \
-    cout.tie(NULL)
-#define fo(i, n) for (int i = 0; i < n; i++)
-#define ll long long
-#define pb push_back
-#define ppb pop_back
-#define ff first
-#define ss second
-#define nline "\n"
-#define el cout << "\n"
-
 int main()
 {
-    fastio();
-
     int n, m, a, c;
     cin >> n >> m;
     int num = n;
@@ -27,8 +12,8 @@ int main()
     for (int i = 0; i < m; i++)
     {
         cin >> a;
-        arr.pb(a);
-        arr2.pb(a);
+        arr.push_back(a);
+        arr2.push_back(a);
     }
 
     //Sorting vectors

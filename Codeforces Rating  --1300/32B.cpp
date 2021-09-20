@@ -1,11 +1,10 @@
-#include<iostream>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
     int i, n, len;
-    char  s[10000];
+    char s[10000];
     gets(s);
     len = strlen(s);
 
@@ -26,7 +25,6 @@ int main()
             cout << "2";
             i++;
         }
-
     }
     cout << endl;
 }

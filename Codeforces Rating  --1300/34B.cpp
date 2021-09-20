@@ -12,8 +12,10 @@ int main()
 
     sort(arr, arr + n);
 
-    for (int i = 0; i < m; i++) {
-        if (arr[i] >= 0) break;
+    for (int i = 0; i < m; i++)
+    {
+        if (arr[i] >= 0)
+            break;
         sum += arr[i];
     }
     cout << -(sum);

@@ -6,8 +6,9 @@ int main()
     string s;
     cin >> s;
 
-    set<char>letters;
-    for (int i = 0; i < s.length(); i++) {
+    set<char> letters;
+    for (int i = 0; i < s.length(); i++)
+    {
         letters.insert(s[i]);
     }
 
